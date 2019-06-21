@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.center-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+
+.navFalse {
+  margin-left: 120px;
+  }
+  
+  .navTrue {
+  margin-left: 300px;
+  }
+  
+  .nav {
+  z-index: 10;
+  }
+  
+  @media only screen and(max-width: 600px) {
+  .navTrue{
+    margin-left: 120px;
+  }
+  
+  }
